@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-datapass-input',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./datapass-input.component.css']
 })
 export class DatapassInputComponent {
+ 
+  @Input() name:string | undefined;
 
 }
