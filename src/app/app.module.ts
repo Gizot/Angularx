@@ -14,7 +14,8 @@ import { EventclickComponent } from './pages/eventclick/eventclick.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

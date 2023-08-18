@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-eventclick',
@@ -7,7 +7,8 @@ import { Component } from '@angular/core';
 })
 export class EventclickComponent {
 
-  WriteToConsole():void {
+  
+  WriteToConsole(){
     console.log("click");
   }
 
